@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 The MIT License (MIT)
 
 Copyright (c) 2015-present C. T. Lin
+=======
+MIT License
+
+Copyright (c) 2018 MD
+>>>>>>> b93470af9a0b644285eed9f8bd0e9ce09b7f66f0
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,4 +25,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
