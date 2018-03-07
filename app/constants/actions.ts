@@ -1,0 +1,1 @@
+export const LOAD_SHAREPOINT = 'LOAD_SHAREPOINT';
