@@ -1,17 +1,14 @@
 import { combineReducers, Reducer } from 'redux';
 import { routerReducer as routing } from 'react-router-redux';
-import sharepoint from './sharepoint';
+import counter, { TState as TCounterState } from './counter';
 
+const rootReducer = combineReducers({
+  counter,
+  routing: routing as Reducer<any>
+});
 
 export interface IState {
-  routing:any;
-  sharepoint:any;
+  counter: TCounterState;
 }
-
-
-const rootReducer = combineReducers<IState>({
-  routing: routing as Reducer<any>,
-  sharepoint: sharepoint as Reducer<any>
-});
 
 export default rootReducer;

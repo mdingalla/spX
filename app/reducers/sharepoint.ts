@@ -1,8 +1,9 @@
 import { handleActions } from 'redux-actions';
 import * as Actions from '../constants/actions';
+import {  RootState } from '../models/models';
 
-const initialState = {
-    sharepoint:[]
+const initialState:RootState = {
+    servers:[]
 }
 
 export default handleActions<any,any>({
